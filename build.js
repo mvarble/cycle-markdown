@@ -4,7 +4,7 @@ const nodeExternals = require('webpack-node-externals');
 
 const config = {
   target: 'node',
-  mode: 'none',
+  mode: 'production',
   output: {
     path: __dirname,
     libraryTarget: 'commonjs2',
